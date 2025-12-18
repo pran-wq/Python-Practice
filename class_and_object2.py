@@ -1,21 +1,21 @@
 #a program for class and objects 
 
-# class Student:
-#     def __init__(self):
-#         self.name = input("Enter your name :")
-#         self.marks =[]
-#         for i in range(1,4):
-#             mark = float(input("Enter the marks of the subject " + str(i) + ": "))
-#             self.marks.append(mark)
-#     def get_percentage(self):
-#         percentage = sum(self.marks)/3
-#         print("\nyou got ", percentage," % percent in these subjects" )
-#         if percentage >78:
-#             print("\nHey, " + self.name + " you did great in these subjects")
-#         elif percentage > 60:
-#             print("\nHey, " + self.name + " you need to improve in these subjects")
-#         else :
-#             print("\nHey, " + self.name + " you did very poor in these subjects")
+ class Student:
+    def __init__(self):
+        self.name = input("Enter your name :")
+        self.marks =[]
+        for i in range(1,4):
+            mark = float(input("Enter the marks of the subject " + str(i) + ": "))
+            self.marks.append(mark)
+    def get_percentage(self):
+        percentage = sum(self.marks)/3
+        print("\nyou got ", percentage," % percent in these subjects" )
+        if percentage >78:
+            print("\nHey, " + self.name + " you did great in these subjects")
+        elif percentage > 60:
+            print("\nHey, " + self.name + " you need to improve in these subjects")
+        else :
+            print("\nHey, " + self.name + " you did very poor in these subjects")
             
 
         
@@ -42,3 +42,4 @@ customer1.credit()
 
 
         
+
